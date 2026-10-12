@@ -26,6 +26,12 @@ Percentages use audio duration and your saved position. Blue means not started, 
 
 Optional online lookup is off by default. Enable it in Settings to send title/author searches to Open Library. Offline playback and embedded chapter titles do not require it. Unmatched or ambiguous titles retain their local names. Covers use embedded artwork first, then a cover.jpg/cover.png transferred in the book folder, then a cached Open Library cover when available. Online cover retrieval follows the lookup setting; downloaded covers remain available offline. Read the [privacy policy](PRIVACY.md) for details.
 
+## Connect Hardcover
+
+Open Library → Settings → Connect Hardcover, then approve profile access in the browser. Settings shows the connected username and links to your Hardcover profile. Check connection verifies access; Disconnect Hardcover removes the saved connection and attempts to revoke access. If the service is unavailable during disconnect, remove Pocket Books from Hardcover’s Authorized Apps page.
+
+This first connection does not yet synchronize books, progress or reviews. Playback works without connecting. Development builds show a setup message until a Hardcover developer client ID is configured.
+
 ## Contact
 
 Contact Lugo Labs at [support@lugolabs.com](mailto:support@lugolabs.com). Include the app version, iOS version, what you did and what happened.

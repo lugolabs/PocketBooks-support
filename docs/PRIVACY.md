@@ -1,8 +1,8 @@
 # Pocket Books privacy policy
 
-Updated 11 October 2026.
+Updated 12 October 2026.
 
-Pocket Books is developed by Lugo Labs and plays audio files you provide. It has no sign-in, advertising or analytics SDK. The app does not upload your audio to us.
+Pocket Books is developed by Lugo Labs and plays audio files you provide. Account connection is optional. It has no advertising or analytics SDK. The app does not upload your audio to us.
 
 ## Information on your device
 
@@ -17,6 +17,14 @@ Online lookup is off by default. If you enable Look up book details in Settings,
 The app does not include your audio, listening position, bookmarks, account information or a unique device identifier in the search request. It does not sign in to Open Library. Returned catalog details and the last successful check time are saved on your device.
 
 Open Library is operated by the Internet Archive. Its handling of requests is governed by its [terms and privacy policy](https://archive.org/about/terms). Do not enable lookup for titles you do not want to send to that service.
+
+## Optional Hardcover connection
+
+If you choose Connect Hardcover, sign-in and consent take place through Hardcover in a secure browser session. Pocket Books requests permission to read your profile identifier and username. It saves those details and access/refresh tokens in this iPhone’s Keychain so the connection can be restored. Tokens are restricted to this device and are not stored in the audio library or sent to Lugo Labs. Your password is entered only on Hardcover.
+
+Hardcover receives authenticated profile requests, token exchanges, your IP address and standard network information. Its handling is governed by [Hardcover’s policies](https://hardcover.app/pages/policies). This initial connection does not upload books, audio, listening progress, bookmarks or reviews and does not use Hardcover for book lookup.
+
+Disconnect Hardcover removes the connection from this iPhone and attempts to revoke its refresh token online. If revocation cannot be confirmed, the app tells you to remove Pocket Books from Hardcover’s [Authorized Apps](https://hardcover.app/account/api/authorized-apps). Keychain credentials can survive deleting the app; disconnect before uninstalling or revoke access on Hardcover. Disconnecting does not delete your Hardcover account or library.
 
 ## Your choices and deletion
 
