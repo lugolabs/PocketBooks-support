@@ -28,9 +28,11 @@ Optional online lookup is off by default. Enable it in Settings to send title/au
 
 ## Connect Hardcover
 
-Open Library → Settings → Connect Hardcover, then approve profile access in the browser. Settings shows the connected username and links to your Hardcover profile. Check connection verifies access; Disconnect Hardcover removes the saved connection and attempts to revoke access. If the service is unavailable during disconnect, remove Pocket Books from Hardcover’s Authorized Apps page.
+Open Library → Settings → Connect Hardcover, then approve access in the browser. Settings shows the connected username and links to your Hardcover profile. Check connection verifies access; Disconnect Hardcover removes the saved connection and attempts to revoke access. If the service is unavailable during disconnect, remove Pocket Books from Hardcover’s Authorized Apps page.
 
-This first connection does not yet synchronize books, progress or reviews. Playback works without connecting. Development builds show a setup message until a Hardcover developer client ID is configured.
+Existing profile-only connections need Reconnect Hardcover to approve catalog and reading-list permissions. Open a book’s page and choose Find on Hardcover, then select the book and matching audiobook edition. This updates its title, author, year and cached cover; local artwork keeps priority.
+
+Enable Sync reading progress on a matched book to send status and progress to that account. Sync runs while the app is open and catches up after offline listening; Sync now retries immediately. New online entries are private. A different online edition or further-ahead/finished reading stops sync with an explanation. There is no automatic reread or two-way position sync. Removing local audio never deletes the online entry. Use View on Hardcover to write a review there. Playback works without connecting. Development builds show a setup message until a Hardcover developer client ID is configured.
 
 ## Contact
 
