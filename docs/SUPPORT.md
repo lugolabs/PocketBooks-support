@@ -39,3 +39,5 @@ Enable Sync reading progress on a matched book to send status and supported prog
 Contact Lugo Labs at [support@lugolabs.com](mailto:support@lugolabs.com). Include the app version, iOS version, what you did and what happened.
 
 You can also report a problem through [Pocket Books GitHub issues](https://github.com/lugolabs/PocketBooks-support/issues). Include the app version, iOS version, what you did and what happened. Issues are public: avoid personal audio, private filenames, account details or device identifiers.
+
+With Look up book details enabled and Hardcover connected, ISBNs from Open Library automatically link unambiguous Hardcover books and download their covers. Audiobook editions are preferred, using the closest duration when available. If none exists, the app uses an ISBN-matched page-count edition or links the book without an edition. Check Change Hardcover match if the suggested edition differs from your recording. Sync remains off until you enable it. Existing matches are preserved, and removing a match prevents automatic relinking. Missing/ambiguous ISBN matches remain available for manual search.
