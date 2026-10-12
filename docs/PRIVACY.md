@@ -12,7 +12,7 @@ Your device’s backup settings may include app data in an Apple or computer bac
 
 ## Optional book details lookup
 
-Online lookup is off by default. If you enable Look up book details in Settings, the app sends the book title and author name to Open Library at openlibrary.org to find matching catalog information. These names may come from your filenames or existing book details. Requests also expose your IP address and standard network request information to that service.
+Online lookup is off by default. If you enable Look up book details in Settings, the app sends the book title and author name to Open Library at openlibrary.org to find matching catalog information. These names may come from your filenames or existing book details. For matched books, requests can also include the Open Library book identifier. The app can request cover images from covers.openlibrary.org using a cover identifier, and save them on your device for offline display. Embedded artwork and cover images transferred with your audio are read locally. Requests also expose your IP address and standard network request information to that service.
 
 The app does not include your audio, listening position, bookmarks, account information or a unique device identifier in the search request. It does not sign in to Open Library. Returned catalog details and the last successful check time are saved on your device.
 

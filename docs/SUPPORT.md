@@ -24,7 +24,7 @@ Percentages use audio duration and your saved position. Blue means not started, 
 
 ## Book details and privacy
 
-Optional online lookup is off by default. Enable it in Settings to send title/author searches to Open Library. Offline playback and embedded chapter titles do not require it. Unmatched or ambiguous titles retain their local names. Read the [privacy policy](PRIVACY.md) for details.
+Optional online lookup is off by default. Enable it in Settings to send title/author searches to Open Library. Offline playback and embedded chapter titles do not require it. Unmatched or ambiguous titles retain their local names. Covers use embedded artwork first, then a cover.jpg/cover.png transferred in the book folder, then a cached Open Library cover when available. Online cover retrieval follows the lookup setting; downloaded covers remain available offline. Read the [privacy policy](PRIVACY.md) for details.
 
 ## Contact
 
